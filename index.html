@@ -1,0 +1,1235 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portafolio Digital de Evaluación Educativa · Jose Esau Galdamez | UNAB</title>
+  <meta name="description" content="Portafolio Digital de Evidencias - Primer Laboratorio y Parcial de Evaluación Educativa en Entornos Virtuales. Universidad Dr. Andrés Bello, Regional Sonsonate. Autor: Jose Esau Galdamez Melgar.">
+  <meta name="author" content="Jose Esau Galdamez Melgar">
+
+  <!-- Tipografía moderna Google Fonts: Plus Jakarta Sans e Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Estilos del portal universitario -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Barra de progreso superior -->
+  <div class="scroll-progress" aria-hidden="true">
+    <span class="scroll-progress__fill" id="scrollFill"></span>
+  </div>
+
+  <!-- Navbar Superior Moderno con Glassmorphism -->
+  <header class="navbar" id="navbar">
+    <div class="navbar__container">
+      <a class="navbar__brand" href="#hero">
+        <div class="navbar__logo-badge">U</div>
+        <div class="navbar__brand-text">
+          <span class="navbar__brand-title">Evaluación Educativa Virtual</span>
+          <span class="navbar__brand-sub">Universidad Dr. Andrés Bello · 2026</span>
+        </div>
+      </a>
+
+      <!-- Navegación Escritorio -->
+      <nav class="navbar__nav" aria-label="Menú principal">
+        <a class="navbar__link" href="#indice">Índice</a>
+        <a class="navbar__link" href="#introduccion">Introducción</a>
+        <a class="navbar__link" href="#objetivos">Objetivos</a>
+        <a class="navbar__link" href="#evidencias">Evidencias</a>
+        <a class="navbar__link" href="#proceso">Proceso</a>
+        <a class="navbar__link" href="#producto">Proyección</a>
+        <a class="navbar__link" href="#autoevaluacion">Autoevaluación</a>
+        <a class="navbar__link" href="#referencias">Referencias</a>
+      </nav>
+
+      <!-- Acciones Rápidas -->
+      <div class="navbar__actions">
+        <button class="btn btn--primary js-print-trigger" type="button" title="Imprimir o guardar como PDF">
+          <span>&darr;</span> Guardar PDF
+        </button>
+        <button class="mobile-toggle" id="mobileToggle" type="button" aria-label="Abrir menú de navegación">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Menú Drawer Móvil -->
+  <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+    <div class="mobile-menu__drawer">
+      <div style="display:flex; justify-content:space-between; align-items:center; border-bottom:1px solid #E2E8F0; padding-bottom:12px;">
+        <span style="font-weight:800; font-size:1rem; color:#0F172A;">Navegación</span>
+        <span style="font-size:0.75rem; color:#64748B;">Jose Esau Galdamez</span>
+      </div>
+      <a class="mobile-menu__link" href="#hero">Inicio</a>
+      <a class="mobile-menu__link" href="#indice">01. Índice General</a>
+      <a class="mobile-menu__link" href="#introduccion">02. Introducción</a>
+      <a class="mobile-menu__link" href="#objetivos">03. Objetivos</a>
+      <a class="mobile-menu__link" href="#ev-01">E1 · Análisis de Casos</a>
+      <a class="mobile-menu__link" href="#ev-02">E2 · El Ciclo Crítico</a>
+      <a class="mobile-menu__link" href="#ev-03">E3 · Diseño de Evaluación</a>
+      <a class="mobile-menu__link" href="#ev-04">E4 · Retroalimentación 100%</a>
+      <a class="mobile-menu__link" href="#proceso">05. Proceso</a>
+      <a class="mobile-menu__link" href="#producto">06. Producto y Proyección</a>
+      <a class="mobile-menu__link" href="#autoevaluacion">07. Autoevaluación</a>
+      <a class="mobile-menu__link" href="#referencias">08. Referencias</a>
+      <button class="btn btn--primary js-print-trigger" type="button" style="width:100%; margin-top:16px;">
+        Descargar / Imprimir PDF
+      </button>
+    </div>
+  </div>
+
+  <!-- HERO SECTION MODERNO -->
+  <section class="hero" id="hero">
+    <div class="hero__container">
+      <div class="hero__badge">
+        <span class="hero__badge-dot"></span>
+        <span>Universidad Dr. Andrés Bello · Maestría en Docencia Virtual</span>
+      </div>
+
+      <h1 class="hero__title">
+        Portafolio Digital de <span class="hero__title-highlight">Evaluación Educativa</span> en Entornos Virtuales
+      </h1>
+
+      <p class="hero__subtitle">
+        Primer Laboratorio y Evaluación Parcial: Arquitectura de la evaluación formativa, desarrollo metacognitivo y mediación dialógica en la educación superior universitaria.
+      </p>
+
+      <!-- Ficha Institucional en Hero -->
+      <div class="hero__meta-card">
+        <div class="hero__meta-item">
+          <span class="hero__meta-label">Autor / Maestrante</span>
+          <span class="hero__meta-value">Jose Esau Galdamez Melgar</span>
+        </div>
+        <div class="hero__meta-item">
+          <span class="hero__meta-label">Asignatura</span>
+          <span class="hero__meta-value">Evaluación Educativa en Entornos Virtuales</span>
+        </div>
+        <div class="hero__meta-item">
+          <span class="hero__meta-label">Docente Titular</span>
+          <span class="hero__meta-value">Mtra. Liliana Jeannette Cordero De García</span>
+        </div>
+        <div class="hero__meta-item">
+          <span class="hero__meta-label">Fecha y Sede</span>
+          <span class="hero__meta-value">Octubre de 2026 · Sonsonate, El Salvador</span>
+        </div>
+      </div>
+
+      <!-- Tarjetas KPI -->
+      <div class="hero__kpis">
+        <div class="kpi-chip">
+          <div class="kpi-chip__icon">&check;</div>
+          <div>
+            <div class="kpi-chip__number">04</div>
+            <div class="kpi-chip__label">Evidencias Principales</div>
+          </div>
+        </div>
+        <div class="kpi-chip">
+          <div class="kpi-chip__icon">100%</div>
+          <div>
+            <div class="kpi-chip__number">5 / 5</div>
+            <div class="kpi-chip__label">Calificación en Moodle</div>
+          </div>
+        </div>
+        <div class="kpi-chip">
+          <div class="kpi-chip__icon">&star;</div>
+          <div>
+            <div class="kpi-chip__number">10 / 10</div>
+            <div class="kpi-chip__label">Autoevaluación Oficial</div>
+          </div>
+        </div>
+        <div class="kpi-chip">
+          <div class="kpi-chip__icon">&para;</div>
+          <div>
+            <div class="kpi-chip__number">APA 7</div>
+            <div class="kpi-chip__label">Normativa Bibliográfica</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTENEDOR PRINCIPAL -->
+  <main class="main-wrapper">
+
+    <!-- ====================================================================
+         01. ÍNDICE GENERAL
+         ==================================================================== -->
+    <section class="content-section" id="indice">
+      <div class="section-header">
+        <span class="section-badge">Sección 01</span>
+        <h2 class="section-title">Índice General del Portafolio</h2>
+        <p class="section-subtitle">Mapa de navegación secuencial y articulación de las evidencias curriculares</p>
+      </div>
+
+      <div class="toc-grid">
+        <a class="toc-card" href="#introduccion">
+          <span class="toc-card__num">02</span>
+          <span class="toc-card__title">Introducción y Fundamentación Pedagógica</span>
+        </a>
+        <a class="toc-card" href="#objetivos">
+          <span class="toc-card__num">03</span>
+          <span class="toc-card__title">Objetivos del Portafolio</span>
+        </a>
+        <a class="toc-card" href="#ev-01">
+          <span class="toc-card__num">E1</span>
+          <span class="toc-card__title">Análisis de 2 Casos Prácticos (S1)</span>
+        </a>
+        <a class="toc-card" href="#ev-02">
+          <span class="toc-card__num">E2</span>
+          <span class="toc-card__title">El Ciclo Crítico: De Estudiante a Evaluador (S2)</span>
+        </a>
+        <a class="toc-card" href="#ev-03">
+          <span class="toc-card__num">E3</span>
+          <span class="toc-card__title">Diseño de Evaluación Universitaria y Rúbrica (S2)</span>
+        </a>
+        <a class="toc-card" href="#ev-04">
+          <span class="toc-card__num">E4</span>
+          <span class="toc-card__title">Calificaciones de Retroalimentación 100% (S2)</span>
+        </a>
+        <a class="toc-card" href="#proceso">
+          <span class="toc-card__num">05</span>
+          <span class="toc-card__title">Proceso de Elaboración: Recolección y Selección</span>
+        </a>
+        <a class="toc-card" href="#producto">
+          <span class="toc-card__num">06</span>
+          <span class="toc-card__title">Producto: Reflexión Global y Metas de Proyección</span>
+        </a>
+        <a class="toc-card" href="#autoevaluacion">
+          <span class="toc-card__num">07</span>
+          <span class="toc-card__title">Autoevaluación con Rúbrica Oficial Docente</span>
+        </a>
+        <a class="toc-card" href="#referencias">
+          <span class="toc-card__num">08</span>
+          <span class="toc-card__title">Referencias Bibliográficas (APA 7.ª Edición)</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         02. INTRODUCCIÓN
+         ==================================================================== -->
+    <section class="content-section" id="introduccion">
+      <div class="section-header">
+        <span class="section-badge">Sección 02</span>
+        <h2 class="section-title">Introducción</h2>
+        <p class="section-subtitle">Marco teórico-epistemológico y justificación de la evaluación formativa en entornos virtuales</p>
+      </div>
+
+      <div class="card card--accent">
+        <p style="font-size: 1.05rem; line-height: 1.8; margin-top: 0;">
+          La evaluación en la educación superior virtual representa una oportunidad histórica para superar el modelo punitivo y estandarizado del veredicto terminal. Durante décadas, la evaluación universitaria ha funcionado predominantemente como un dispositivo de control administrativo destinado a certificar resultados cuantitativos al final de un período, desaprovechando su verdadero potencial: <strong>mediar en el aprendizaje, desarrollar la metacognición y orientar la toma de decisiones pedagógicas continuas</strong>.
+        </p>
+
+        <p style="font-size: 0.95rem; line-height: 1.8;">
+          En los Entornos Virtuales de Aprendizaje (EVA), la distancia física y la asincronía exigen que la evaluación se configure como una práctica dialógica permanente. Como afirman Black y Wiliam (2009), la evaluación formativa cobra sentido cuando la información recabada es efectivamente utilizada por docentes y estudiantes para modificar las actividades de enseñanza-aprendizaje, transformando el error en una palanca de perfeccionamiento mediante el <em>feed-forward</em>.
+        </p>
+
+        <p style="font-size: 0.95rem; line-height: 1.8; margin-bottom: 0;">
+          Este <strong>Portafolio Digital</strong> constituye el producto integrador del <strong>Primer Laboratorio y Evaluación Parcial</strong> de la cátedra <em>Evaluación Educativa en Entornos Virtuales</em>, correspondiente a la Maestría en Docencia Universitaria en Entornos Virtuales de la Universidad Dr. Andrés Bello. A través de este espacio, se articulan las dimensiones clave del aprendizaje: la <em>autoevaluación</em> como detonante de la autorregulación personal (Zimmerman, 2002); la <em>coevaluación</em> como ejercicio cooperativo para cultivar el juicio evaluativo (Boud & Falchikov, 2007); y la <em>heteroevaluación</em> como criterio experto y orientador que garantiza la validez de las competencias profesionales esperadas.
+        </p>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         03. OBJETIVOS
+         ==================================================================== -->
+    <section class="content-section" id="objetivos">
+      <div class="section-header">
+        <span class="section-badge">Sección 03</span>
+        <h2 class="section-title">Objetivos del Portafolio</h2>
+        <p class="section-subtitle">Propósitos formativos de aprendizaje y justificación de la estructura de evidencias</p>
+      </div>
+
+      <!-- Objetivo General Hero Card -->
+      <div class="objective-hero">
+        <div class="objective-hero__tag">Objetivo General</div>
+        <p class="objective-hero__text">
+          Demostrar y consolidar la apropiación teórico-práctica y reflexiva de los modelos de evaluación formativa, autoevaluación, coevaluación y heteroevaluación en la educación superior virtual, mediante la recopilación deliberada, el análisis sistemático y la valoración crítica de evidencias de aprendizaje orientadas a la innovación y transformación de la práctica docente universitaria.
+        </p>
+      </div>
+
+      <!-- Objetivos Específicos Grid -->
+      <div class="objectives-grid">
+        <article class="objective-item">
+          <span class="objective-item__num">01</span>
+          <h3 class="objective-item__title">Análisis Crítico de Casos</h3>
+          <p class="objective-item__desc">
+            Analizar situaciones problemáticas de autoevaluación y heteroevaluación en posgrado, diseñando rúbricas analíticas e interpretando discrepancias para diseñar planes de intervención pedagógica.
+          </p>
+        </article>
+
+        <article class="objective-item">
+          <span class="objective-item__num">02</span>
+          <h3 class="objective-item__title">Modelado de la Coevaluación</h3>
+          <p class="objective-item__desc">
+            Fundamentar y diseñar el cierre de la coevaluación entre pares en entornos virtuales ("El Ciclo Crítico"), asegurando el desarrollo del juicio evaluativo y el uso tangible de la retroalimentación.
+          </p>
+        </article>
+
+        <article class="objective-item">
+          <span class="objective-item__num">03</span>
+          <h3 class="objective-item__title">Diseño Evaluativo Auténtico</h3>
+          <p class="objective-item__desc">
+            Estructurar una propuesta integral de evaluación universitaria virtual basada en las 6 preguntas epistemológicas, la taxonomía de Bloom y una rúbrica analítica por niveles de logro.
+          </p>
+        </article>
+
+        <article class="objective-item">
+          <span class="objective-item__num">04</span>
+          <h3 class="objective-item__title">Metacognición y Proyección</h3>
+          <p class="objective-item__desc">
+            Reflexionar críticamente sobre el propio desempeño a partir de las calificaciones obtenidas en el EVA, proyectando metas de mejora y cualificación docente para la educación superior.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         04. EVIDENCIAS DE APRENDIZAJE
+         ==================================================================== -->
+    <section class="content-section" id="evidencias">
+      <div class="section-header">
+        <span class="section-badge">Sección 04</span>
+        <h2 class="section-title">Evidencias Curriculares de Aprendizaje</h2>
+        <p class="section-subtitle">Compendio documental, instrumentos y análisis metacognitivo de las Semanas 1 y 2</p>
+      </div>
+
+      <!-- ------------------------------------------------------------------
+           EVIDENCIA 1: ANÁLISIS DE CASOS
+           ------------------------------------------------------------------ -->
+      <article class="evidence-card" id="ev-01">
+        <div class="evidence-card__header">
+          <div>
+            <div class="evidence-card__badge-row">
+              <span class="badge badge--blue">Semana 1</span>
+              <span class="badge badge--slate">Primer Laboratorio</span>
+              <span class="badge badge--emerald">Completado</span>
+            </div>
+            <h3 class="evidence-card__title">Evidencia 1: Análisis Descriptivo y Resolución de 2 Casos Prácticos</h3>
+          </div>
+          <span class="evidence-card__id">E1</span>
+        </div>
+
+        <p style="font-size: 0.95rem; line-height: 1.7; margin: 0 0 20px;">
+          Resolución académica y metodológica de dos escenarios pedagógicos reales: <strong>Caso 1: Autoevaluación en un curso virtual de posgrado</strong> y <strong>Caso 2: Heteroevaluación de una actividad colaborativa virtual</strong>. La actividad implicó asumir el rol de docente responsable, fundamentar los conceptos evaluativos, diseñar dos rúbricas analíticas estandarizadas, interpretar resultados cuantitativos y cualitativos, y formular planes docentes de toma de decisiones pedagógicas.
+        </p>
+
+        <!-- BARRA PROMINENTE DE ACCIÓN: VER DOCUMENTO ORIGINAL O DESCARGAR -->
+        <div class="evidence-actions-bar">
+          <div class="evidence-actions-bar__info">
+            <div class="evidence-actions-bar__icon">DOC</div>
+            <div>
+              <p class="evidence-actions-bar__title">Documento Original: Análisis 2 estudios de casos.docx</p>
+              <p class="evidence-actions-bar__subtitle">Archivo Word oficial de resolución · Tamaño: 81.6 KB · UNAB Sonsonate</p>
+            </div>
+          </div>
+          <div class="evidence-actions-bar__buttons">
+            <button class="btn btn--primary" type="button" 
+                    data-open-doc="doc-source-e1" 
+                    data-doc-title="Análisis Descriptivo de 2 Casos: Autoevaluación y Heteroevaluación" 
+                    data-doc-badge="DOCX Oficial" 
+                    data-doc-download="docs/Analisis_2_Estudios_de_Casos.docx">
+              <span>&eye;</span> Ver Documento Completo
+            </button>
+            <a class="btn btn--secondary" href="docs/Analisis_2_Estudios_de_Casos.docx" download="Analisis_2_Estudios_de_Casos_Jose_Esau_Galdamez.docx">
+              <span>&darr;</span> Descargar Archivo (.docx)
+            </a>
+          </div>
+        </div>
+
+        <!-- Ficha Técnica -->
+        <dl class="meta-specs">
+          <div class="meta-spec-item">
+            <dt>Asignatura y Cátedra</dt>
+            <dd>Evaluación Educativa en Entornos Virtuales</dd>
+          </div>
+          <div class="meta-spec-item">
+            <dt>Autores del Análisis</dt>
+            <dd>Jose Esau Galdamez Melgar, René Jiménez, Luis García, Gerber Gómez</dd>
+          </div>
+          <div class="meta-spec-item">
+            <dt>Instrumentos Diseñados</dt>
+            <dd>2 Rúbricas Analíticas completas (Autoevaluación y Heteroevaluación)</dd>
+          </div>
+        </dl>
+
+        <!-- Pestañas de Vista Rápida en Página -->
+        <div class="modern-tabs">
+          <div class="modern-tabs__header">
+            <button class="tab-trigger active" data-tab="tab-e1-c1">Caso 1: Autoevaluación en Posgrado</button>
+            <button class="tab-trigger" data-tab="tab-e1-c2">Caso 2: Heteroevaluación Colaborativa</button>
+          </div>
+
+          <!-- TAB CASO 1 -->
+          <div class="tab-view active" id="tab-e1-c1">
+            <h4 style="margin: 0 0 10px; font-weight: 800; color: var(--text-main);">
+              Caso Práctico 1: Autoevaluación en "Diseño de Experiencias en Moodle"
+            </h4>
+            <p style="font-size: 0.92rem; line-height: 1.7;">
+              <strong>Problema abordado:</strong> En una maestría virtual, los estudiantes entregan propuestas técnicamente correctas en Moodle pero muestran dificultades para identificar sus debilidades y fortalezas. El docente incorpora una autoevaluación reflexiva previa a la calificación definitiva.
+            </p>
+            <p style="font-size: 0.92rem; line-height: 1.7;">
+              <strong>Interpretación de la simulación:</strong> Un estudiante obtiene Objetivos: 4/4, Coherencia: 3/4, Actividades: 4/4, Recursos: 3/4 y Evaluación: 2/4 (Total: 16/20 pts = 80% o 8.0/10). El análisis revela una brecha crítica en el componente evaluativo: el estudiante diseña qué enseñar y qué actividades hacer, pero carece de competencias para construir instrumentos válidos de verificación (fisura en el alineamiento constructivo de Biggs).
+            </p>
+            <p style="font-size: 0.92rem; line-height: 1.7;">
+              <strong>Toma de decisiones:</strong> La autoevaluación no se utiliza de forma punitiva. Se implementan dos acciones de mejora: 1) Taller de alineamiento constructivo con matriz de trazabilidad en Moodle; y 2) Laboratorio de diseño y calibración de rúbricas analíticas.
+            </p>
+          </div>
+
+          <!-- TAB CASO 2 -->
+          <div class="tab-view" id="tab-e1-c2">
+            <h4 style="margin: 0 0 10px; font-weight: 800; color: var(--text-main);">
+              Caso Práctico 2: Heteroevaluación de Actividad Colaborativa
+            </h4>
+            <p style="font-size: 0.92rem; line-height: 1.7;">
+              <strong>Problema abordado:</strong> Tres equipos presentan propuestas dispares en un aula virtual: Equipo A (excelente teoría, poca aplicación práctica); Equipo B (práctico y creativo, poca coherencia objetivos-actividades); y Equipo C (propuesta equilibrada).
+            </p>
+            <p style="font-size: 0.92rem; line-height: 1.7;">
+              <strong>Puntuaciones fundamentadas:</strong> Equipo A: 15/20 (7.5); Equipo B: 15/20 (7.5); Equipo C: 17/20 (8.5). Aunque el Equipo A y B obtienen la misma nota numérica, sus perfiles formativos son radicalmente opuestos: uno requiere traducir la teoría a instrumentos y el otro alinear sus actividades a las metas curriculares.
+            </p>
+            <p style="font-size: 0.92rem; line-height: 1.7;">
+              <strong>Intervención docente:</strong> Se establecen 4 acciones pedagógicas: Taller de alineamiento (Equipo B), Laboratorio de instrumentos (Equipo A), Pilotaje con grupo focal (Equipo C) y Segunda entrega acompañada de una matriz de cambios fundamentados.
+            </p>
+          </div>
+        </div>
+
+        <!-- REFLEXIÓN METACONITIVA E1 (CRITERIO CENTRAL DE 10 PUNTOS) -->
+        <div class="metacognitive-box">
+          <div class="metacognitive-box__title">
+            <span>&diams;</span> Reflexión Metacognitiva y Valoración del Aprendizaje · Evidencia 1
+          </div>
+          <p>
+            El análisis de estos dos casos de evaluación me permitió desmitificar la idea de que la autoevaluación y la heteroevaluación son procesos disjuntos. Descubrí que la autoevaluación es el motor de la autorregulación metacognitiva: cuando el estudiante confronta su producción con descriptores claros, se vuelve consciente de sus propios sesgos y vacíos cognitivos. Por su parte, la heteroevaluación aporta la mirada técnica externa indispensable para calibrar los estándares profesionales exigidos por la universidad.
+          </p>
+          <p>
+            Diseñar rúbricas analíticas con cuatro niveles de logro me demostró que el instrumento es mucho más que una tabla de puntuación: es un <em>mapa de navegación cognitivo</em> que orienta la producción del estudiante y le otorga al docente una brújula objetiva para emitir retroalimentación formativa y diseñar planes de refuerzo pedagógico.
+          </p>
+          <div class="analogy-card">
+            <div class="analogy-card__tag">
+              <span>&bull;</span> Comparación con la Práctica Docente Universitaria en El Salvador
+            </div>
+            <p class="analogy-card__text">
+              Esta situación describe fielmente lo que ocurre en las facultades de ingeniería y ciencias tecnológicas en El Salvador. A menudo observo estudiantes que entregan sistemas informáticos o prototipos electrónicos totalmente operativos (idéntico al Equipo B del caso), pero son incapaces de presentar una memoria técnica que sustente por qué tomaron esas decisiones de diseño. Por otro lado, estudiantes con excelente oratoria teórica no logran implementar el código ni manipular el hardware (Equipo A). Si como docentes nos limitamos a promediar una nota numérica sin desglosar criterios analíticos, ignoramos la necesidad formativa de cada alumno y graduamos profesionales con graves deficiencias. Aplicar rúbricas analíticas transparentes y matrices de alineamiento constructivo es la solución pedagógica que nuestras universidades salvadoreñas requieren con urgencia.
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <!-- ------------------------------------------------------------------
+           EVIDENCIA 2: EL CICLO CRÍTICO
+           ------------------------------------------------------------------ -->
+      <article class="evidence-card" id="ev-02">
+        <div class="evidence-card__header">
+          <div>
+            <div class="evidence-card__badge-row">
+              <span class="badge badge--blue">Semana 2</span>
+              <span class="badge badge--slate">Actividad en Equipos</span>
+              <span class="badge badge--emerald">Completado</span>
+            </div>
+            <h3 class="evidence-card__title">Evidencia 2: "El Ciclo Crítico: De Estudiante a Evaluador"</h3>
+          </div>
+          <span class="evidence-card__id">E2</span>
+        </div>
+
+        <p style="font-size: 0.95rem; line-height: 1.7; margin: 0 0 20px;">
+          Actividad colaborativa en equipos sobre la coevaluación en entornos virtuales. Como integrantes del <strong>Equipo 4: Cierre del ciclo y transformación</strong>, resolvimos el dilema de cómo diseñar el cierre de una actividad virtual para que los estudiantes demuestren tangiblemente que han utilizado la retroalimentación de sus pares para mejorar su producto final o comprensión del tema.
+        </p>
+
+        <!-- BARRA PROMINENTE DE ACCIÓN -->
+        <div class="evidence-actions-bar">
+          <div class="evidence-actions-bar__info">
+            <div class="evidence-actions-bar__icon">DOC</div>
+            <div>
+              <p class="evidence-actions-bar__title">Documento Original: EQUIPO 4_ Cierre del ciclo y transformación.docx</p>
+              <p class="evidence-actions-bar__subtitle">Aportes del equipo y propuesta de Jose Esau Galdamez · Tamaño: 1.67 MB</p>
+            </div>
+          </div>
+          <div class="evidence-actions-bar__buttons">
+            <button class="btn btn--primary" type="button" 
+                    data-open-doc="doc-source-e2" 
+                    data-doc-title="Equipo 4: Cierre del Ciclo y Transformación (Coevaluación)" 
+                    data-doc-badge="DOCX Colaborativo" 
+                    data-doc-download="docs/Equipo4_El_Ciclo_Critico_Cierre_y_Transformacion.docx">
+              <span>&eye;</span> Ver Documento Completo
+            </button>
+            <a class="btn btn--secondary" href="docs/Equipo4_El_Ciclo_Critico_Cierre_y_Transformacion.docx" download="Equipo4_El_Ciclo_Critico_Jose_Esau_Galdamez.docx">
+              <span>&darr;</span> Descargar Archivo (.docx)
+            </a>
+          </div>
+        </div>
+
+        <dl class="meta-specs">
+          <div class="meta-spec-item">
+            <dt>Actividad Asignada</dt>
+            <dd>El Ciclo Crítico: De Estudiante a Evaluador · Semana 2</dd>
+          </div>
+          <div class="meta-spec-item">
+            <dt>Subtema y Equipo</dt>
+            <dd>Equipo 4: Cierre del ciclo y transformación</dd>
+          </div>
+          <div class="meta-spec-item">
+            <dt>Integrantes</dt>
+            <dd>Jose Esau Galdamez Melgar, Marlon Zometa, Lizzette Estrada, Oscar Alas</dd>
+          </div>
+        </dl>
+
+        <!-- Síntesis de la Propuesta de Jose Esau Galdamez -->
+        <div style="background: var(--bg-card-subtle); border-radius: var(--radius-md); padding: 22px; border-left: 4px solid var(--accent); margin-bottom: 24px;">
+          <h4 style="margin: 0 0 10px; font-weight: 800; font-size: 1.05rem; color: var(--accent);">
+            Propuesta Pedagógica de Jose Esau Galdamez Melgar:
+          </h4>
+          <p style="margin: 0; font-style: italic; font-size: 0.94rem; line-height: 1.7; color: var(--text-main);">
+            «Desde mi perspectiva, el cierre ideal sería solicitar la entrega del producto final acompañado de un breve video, audio o microcápsula interactiva de reflexión (de 1 a 2 minutos). En esta presentación, el estudiante debe contrastar brevemente la versión original de su trabajo, mencionar los aportes más valiosos que recibió durante la coevaluación de sus pares, y argumentar con evidencias cómo esos comentarios transformaron y mejoraron la versión definitiva. De esta manera, no solo se evalúa el producto tangible modificado, sino también la capacidad del estudiante para interiorizar la crítica constructiva, fomentando una verdadera metacognición y apropiación de su proceso de aprendizaje».
+          </p>
+        </div>
+
+        <!-- REFLEXIÓN METACONITIVA E2 (CRITERIO CENTRAL DE 10 PUNTOS) -->
+        <div class="metacognitive-box">
+          <div class="metacognitive-box__title">
+            <span>&diams;</span> Reflexión Metacognitiva y Valoración del Aprendizaje · Evidencia 2
+          </div>
+          <p>
+            El debate en el Equipo 4 sobre el cierre del ciclo de coevaluación me permitió entender que la retroalimentación entre pares no es un evento social accesorio, sino un mecanismo primordial para el desarrollo del <strong>juicio evaluativo</strong> (Boud & Falchikov, 2007). Al colocarse en el rol de evaluador, el maestrante aprende a decodificar criterios, reconocer estándares de calidad y aplicar esa misma mirada analítica a su propia labor.
+          </p>
+          <p>
+            El aprendizaje sustantivo fue comprender que el valor del feedback radica en el <em>impacto tangible</em> que produce. Si el estudiante recibe comentarios y no se le exige demostrar qué hizo con ellos, la coevaluación se desvanece. Mi propuesta de incorporar una microcápsula en video de 1-2 minutos no solo visibiliza la evolución del trabajo, sino que promueve habilidades comunicativas orales y convierte la retroalimentación en un diálogo constructivo.
+          </p>
+          <div class="analogy-card">
+            <div class="analogy-card__tag">
+              <span>&bull;</span> Comparación con la Práctica Docente Universitaria en El Salvador
+            </div>
+            <p class="analogy-card__text">
+              En las aulas virtuales de El Salvador, la coevaluación suele fracasar porque se reduce a instrucciones pasivas del tipo: <em>"Comente en el foro a dos compañeros"</em>. La respuesta generalizada de los alumnos es publicar comentarios complacientes y superficiales ("Excelente trabajo colega, bendiciones"), motivados por el miedo al conflicto o la falta de criterios de valoración. Al implementar un protocolo estructurado como el consensuado por nuestro equipo —donde la entrega final exige una matriz de cambios y una microcápsula audiovisual de contraste— se erradica el comentario vacío y se incentiva a los universitarios a ejercer una crítica profesional constructiva, cualidad indispensable para el trabajo en equipo en el sector empresarial e institucional salvadoreño.
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <!-- ------------------------------------------------------------------
+           EVIDENCIA 3: DISEÑO DE EVALUACIÓN UNIVERSITARIA
+           ------------------------------------------------------------------ -->
+      <article class="evidence-card" id="ev-03">
+        <div class="evidence-card__header">
+          <div>
+            <div class="evidence-card__badge-row">
+              <span class="badge badge--blue">Semana 2</span>
+              <span class="badge badge--emerald">Diseño Original</span>
+              <span class="badge badge--slate">Propuesta Didáctica</span>
+            </div>
+            <h3 class="evidence-card__title">Evidencia 3: Diseño de una Evaluación Universitaria para Entornos Virtuales</h3>
+          </div>
+          <span class="evidence-card__id">E3</span>
+        </div>
+
+        <p style="font-size: 0.95rem; line-height: 1.7; margin: 0 0 20px;">
+          Diseño didáctico completo de una estrategia de evaluación universitaria en modalidad 100% virtual para la cátedra <strong>Formulación y Evaluación de Proyectos de Innovación Tecnológica</strong>. La propuesta responde exhaustivamente a las <strong>seis preguntas epistemológicas</strong>, adopta la modalidad de <strong>Tarea Ex Aula con Andamiaje y Entregas Progresivas</strong>, alinea los criterios con los niveles superiores de la <strong>Taxonomía de Bloom</strong> (Analizar, Evaluar, Crear) e incluye una <strong>Rúbrica Analítica Digital</strong> completa graduada en 4 niveles de desempeño (Puntaje Total: 10.0 / 100%).
+        </p>
+
+        <!-- BARRA PROMINENTE DE ACCIÓN -->
+        <div class="evidence-actions-bar">
+          <div class="evidence-actions-bar__info">
+            <div class="evidence-actions-bar__icon">DOC</div>
+            <div>
+              <p class="evidence-actions-bar__title">Documento Original: Diseno_de_Evaluacion_Universitaria_Virtual.docx</p>
+              <p class="evidence-actions-bar__subtitle">Propuesta curricular completa con guía instruccional y rúbrica analítica Bloom</p>
+            </div>
+          </div>
+          <div class="evidence-actions-bar__buttons">
+            <button class="btn btn--primary" type="button" 
+                    data-open-doc="doc-source-e3" 
+                    data-doc-title="Diseño de Evaluación Universitaria en Entornos Virtuales" 
+                    data-doc-badge="Diseño Original" 
+                    data-doc-download="docs/Diseno_de_Evaluacion_Universitaria_Virtual.docx">
+              <span>&eye;</span> Ver Documento Completo
+            </button>
+            <a class="btn btn--secondary" href="docs/Diseno_de_Evaluacion_Universitaria_Virtual.docx" download="Diseno_Evaluacion_Universitaria_Jose_Esau_Galdamez.docx">
+              <span>&darr;</span> Descargar Archivo (.docx)
+            </a>
+          </div>
+        </div>
+
+        <dl class="meta-specs">
+          <div class="meta-spec-item">
+            <dt>Asignatura y Nivel</dt>
+            <dd>Formulación y Evaluación de Proyectos de Innovación Tecnológica · Pregrado / Ingeniería</dd>
+          </div>
+          <div class="meta-spec-item">
+            <dt>Forma de Evaluación</dt>
+            <dd>Tarea Ex Aula con Andamiaje, Entregas Progresivas y Sustentación</dd>
+          </div>
+          <div class="meta-spec-item">
+            <dt>Enfoque Pedagógico</dt>
+            <dd>Taxonomía de Bloom (Niveles Superiores) y Aprendizaje Basado en Proyectos</dd>
+          </div>
+        </dl>
+
+        <!-- Tabs de Vista Rápida -->
+        <div class="modern-tabs">
+          <div class="modern-tabs__header">
+            <button class="tab-trigger active" data-tab="tab-e3-epi">1. Preguntas Epistemológicas</button>
+            <button class="tab-trigger" data-tab="tab-e3-guia">2. Guía Instruccional Moodle</button>
+            <button class="tab-trigger" data-tab="tab-e3-rub">3. Rúbrica Analítica (10.0 pts)</button>
+          </div>
+
+          <!-- TAB EPISTEMOLOGÍA -->
+          <div class="tab-view active" id="tab-e3-epi">
+            <h4 style="margin: 0 0 10px; font-weight: 800; color: var(--text-main);">
+              Respuestas a las Seis Preguntas Epistemológicas de la Evaluación Virtual
+            </h4>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px;">
+              <div style="background:#F8FAFC; border:1px solid #E2E8F0; padding:16px; border-radius:8px;">
+                <strong style="color:var(--accent);">&bull; ¿Qué evaluar?:</strong> Competencias complejas de diagnóstico empresarial, diseño tecnológico y justificación presupuestaria.
+              </div>
+              <div style="background:#F8FAFC; border:1px solid #E2E8F0; padding:16px; border-radius:8px;">
+                <strong style="color:var(--accent);">&bull; ¿Quién evalúa?:</strong> Modelo triádico: autoevaluación diagnóstica, coevaluación en taller de pares y heteroevaluación docente con rúbrica.
+              </div>
+              <div style="background:#F8FAFC; border:1px solid #E2E8F0; padding:16px; border-radius:8px;">
+                <strong style="color:var(--accent);">&bull; ¿Cómo evaluar?:</strong> Mediante Aprendizaje Basado en Proyectos (ABP) auténtico con entregas parciales y rúbrica analítica digital en el LMS.
+              </div>
+              <div style="background:#F8FAFC; border:1px solid #E2E8F0; padding:16px; border-radius:8px;">
+                <strong style="color:var(--accent);">&bull; ¿Cuándo evaluar?:</strong> Proceso continuo en 3 hitos: Diagnóstico (Semana 1), Propuesta Técnica (Semana 2) y Entrega Final/Defensa (Semana 3).
+              </div>
+              <div style="background:#F8FAFC; border:1px solid #E2E8F0; padding:16px; border-radius:8px;">
+                <strong style="color:var(--accent);">&bull; ¿Dónde evaluar?:</strong> Campus Virtual Moodle, foros de asesoría, carpetas compartidas en la nube y sala de Google Meet.
+              </div>
+              <div style="background:#F8FAFC; border:1px solid #E2E8F0; padding:16px; border-radius:8px;">
+                <strong style="color:var(--accent);">&bull; ¿Por qué evaluar?:</strong> Para mediar en el aprendizaje, prevenir el fracaso escolar mediante retroalimentación oportuna y certificar competencias reales.
+              </div>
+            </div>
+          </div>
+
+          <!-- TAB GUÍA -->
+          <div class="tab-view" id="tab-e3-guia">
+            <h4 style="margin: 0 0 10px; font-weight: 800; color: var(--text-main);">
+              Guía de la Actividad: "Plan de Transformación Digital para MYPE"
+            </h4>
+            <p style="font-size:0.92rem; line-height:1.7;">
+              <strong>Consigna:</strong> Los estudiantes seleccionan una micro o pequeña empresa real de su localidad, investigan su cadena de valor, identifican una oportunidad de mejora digital (comercial, logística o administrativa) y diseñan una propuesta viable con objetivos SMART, análisis FODA, cronograma de hitos y presupuesto justificado. Se entrega un informe digital estructurado (máximo 12 páginas, APA 7) y un video de sustentación de 3 minutos.
+            </p>
+          </div>
+
+          <!-- TAB RÚBRICA -->
+          <div class="tab-view" id="tab-e3-rub">
+            <h4 style="margin: 0 0 10px; font-weight: 800; color: var(--text-main);">
+              Rúbrica Analítica de Evaluación (Puntaje Total: 10.0 / 100%)
+            </h4>
+            <div class="table-container">
+              <table class="data-table">
+                <thead>
+                  <tr>
+                    <th>Criterio y Ponderación</th>
+                    <th>Excelente (100%)</th>
+                    <th>Bueno (75%)</th>
+                    <th>Aceptable (50%)</th>
+                    <th>Insuficiente (25%)</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th>1. Diagnóstico FODA (20% - 2.0 pts)</th>
+                    <td>Diagnóstico preciso y contextualizado; analiza a profundidad las 4 dimensiones tecnológicas.</td>
+                    <td>Identifica los cuatro cuadrantes con buen análisis, aunque omite detalles técnicos menores.</td>
+                    <td>FODA general o superficial con poca fundamentación en la realidad del negocio.</td>
+                    <td>Diagnóstico descontextualizado o confuso; omite factores críticos.</td>
+                  </tr>
+                  <tr>
+                    <th>2. Público Objetivo (10% - 1.0 pto)</th>
+                    <td>Segmentación exhaustiva con variables demográficas, conductuales y digitales claras.</td>
+                    <td>Define el público de forma adecuada, con leve falta de precisión psicográfica.</td>
+                    <td>Descripción genérica de clientes sin especificar hábitos de consumo digital.</td>
+                    <td>No define el público o la segmentación es incongruente con el negocio.</td>
+                  </tr>
+                  <tr>
+                    <th>3. Objetivos SMART (10% - 1.0 pto)</th>
+                    <td>Objetivos específicos, medibles, alcanzables, realistas y temporales alineados al FODA.</td>
+                    <td>Objetivos pertinentes pero con debilidad en sus metas métricas de medición.</td>
+                    <td>Confunde objetivos de aprendizaje o metas empresariales con simples tareas.</td>
+                    <td>Objetivos ausentes, confusos o contradictorios con el diagnóstico.</td>
+                  </tr>
+                  <tr>
+                    <th>4. Estrategias Digitales (25% - 2.5 pts)</th>
+                    <td>Soluciones tecnológicas innovadoras, realistas y viables a la escala de la MYPE.</td>
+                    <td>Propuestas pertinentes y viables con desarrollo técnico moderado.</td>
+                    <td>Propuestas genéricas o con alto riesgo de inviabilidad financiera.</td>
+                    <td>Estrategias inviables o desvinculadas de la problemática diagnosticada.</td>
+                  </tr>
+                  <tr>
+                    <th>5. Plan y Presupuesto (20% - 2.0 pts)</th>
+                    <td>Cronograma de hitos detallado, responsables claros e inversión cotizada con rigor.</td>
+                    <td>Plan coherente y presupuesto aproximado; requiere afinar plazos específicos.</td>
+                    <td>Cronograma vago o presupuesto desfasado de los costos de mercado.</td>
+                    <td>Planificación inexistente; no define responsables ni costos.</td>
+                  </tr>
+                  <tr>
+                    <th>6. Presentación y APA (15% - 1.5 pts)</th>
+                    <td>Estructura impecable, redacción académica, video elocuente y citas APA 7 exactas.</td>
+                    <td>Buena redacción y sustentación clara con detalles menores de formato.</td>
+                    <td>Dificultades notorias de estructura, redacción confusa o citas incompletas.</td>
+                    <td>Desorganizado, sin sustento de fuentes o plagio detectado.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
+        <!-- REFLEXIÓN METACONITIVA E3 (CRITERIO CENTRAL DE 10 PUNTOS) -->
+        <div class="metacognitive-box">
+          <div class="metacognitive-box__title">
+            <span>&diams;</span> Reflexión Metacognitiva y Valoración del Aprendizaje · Evidencia 3
+          </div>
+          <p>
+            Diseñar una evaluación universitaria auténtica fue el ejercicio pedagógico más enriquecedor del curso. Comprendí que estructurar una tarea ex aula no se reduce a asignar un trabajo para ser entregado semanas después; exige concebir la evaluación como una <em>secuencia didáctica con andamiaje</em>. Responder a las seis preguntas epistemológicas garantiza que cada decisión (el qué, el cómo, el cuándo y el por qué) responda a la intencionalidad formativa y no al capricho o hábito del docente.
+          </p>
+          <p>
+            Graduar los criterios de la rúbrica según los niveles superiores de la Taxonomía de Bloom (Analizar, Evaluar y Crear) demostró que es posible evaluar competencias complejas a través de la virtualidad sin recurrir a exámenes memorísticos. La rúbrica analítica digital compartida con antelación empodera al alumno, transparenta el proceso y erradica la subjetividad arbitraria en la asignación de puntajes.
+          </p>
+          <div class="analogy-card">
+            <div class="analogy-card__tag">
+              <span>&bull;</span> Comparación con la Práctica Docente Universitaria en El Salvador
+            </div>
+            <p class="analogy-card__text">
+              En las universidades salvadoreñas predomina la costumbre de asignar "investigaciones bibliográficas" de 20 o 30 páginas que los estudiantes suelen resolver mediante un simple "copiar y pegar" de internet, culminando en calificaciones basadas en el grosor del documento o la carátula. Esta práctica genera una profunda desmotivación y no desarrolla competencias reales. Al transformar la tarea ex aula en un proyecto aplicado con andamiaje (como el plan de transformación digital para una MYPE local con rúbrica analítica y defensa en video), el estudiante universitario salvadoreño se conecta con las necesidades de su entorno comunitario y aprende a formular soluciones profesionales concretas, experimentando el verdadero sentido formativo de la educación superior virtual.
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <!-- ------------------------------------------------------------------
+           EVIDENCIA 4: CAPTURAS DE RETROALIMENTACIÓN (100%)
+           ------------------------------------------------------------------ -->
+      <article class="evidence-card" id="ev-04">
+        <div class="evidence-card__header">
+          <div>
+            <div class="evidence-card__badge-row">
+              <span class="badge badge--emerald">Calificación 100%</span>
+              <span class="badge badge--blue">Semanas 1 y 2</span>
+              <span class="badge badge--slate">LMS Moodle</span>
+            </div>
+            <h3 class="evidence-card__title">Evidencia 4: Calificaciones de Retroalimentación 1 y 2 en Moodle</h3>
+          </div>
+          <span class="evidence-card__id">E4</span>
+        </div>
+
+        <p style="font-size: 0.95rem; line-height: 1.7; margin: 0 0 20px;">
+          Capturas de pantalla originales que acreditan la aprobación con la nota máxima (<strong>100% - 5/5 respuestas correctas</strong>) en las actividades interactivas formativas desarrolladas en la plataforma Moodle durante las semanas 1 y 2 del curso.
+        </p>
+
+        <!-- Galería de Capturas -->
+        <div class="screens-grid">
+          <!-- Captura 1 -->
+          <div class="screen-card">
+            <div class="screen-card__frame" title="Haga clic para ampliar la captura">
+              <img class="screen-card__img" src="img/nota_retro_1.png" alt="Calificación 100% en Autoevaluación y Heteroevaluación">
+              <div class="screen-card__overlay">&oplus; Ampliar Captura</div>
+            </div>
+            <div class="screen-card__footer">
+              <h4 class="screen-card__title">Retroalimentación 1: Autoevaluación y Heteroevaluación</h4>
+              <p class="screen-card__desc">
+                Puntaje obtenido: <strong>5/5 preguntas correctas (100%)</strong> · Estado en Moodle: <strong>APROBADO</strong>. Verificación sobre propósitos, diferencias conceptuales y condiciones de validez.
+              </p>
+              <a class="btn btn--secondary" href="img/nota_retro_1.png" download="Captura_Retroalimentacion_1_Jose_Esau_Galdamez.png" style="width: 100%;">
+                <span>&darr;</span> Descargar Imagen Original (.png)
+              </a>
+            </div>
+          </div>
+
+          <!-- Captura 2 -->
+          <div class="screen-card">
+            <div class="screen-card__frame" title="Haga clic para ampliar la captura">
+              <img class="screen-card__img" src="img/nota_retro_2.png" alt="Calificación 100% en Coevaluación y otras formas de evaluación">
+              <div class="screen-card__overlay">&oplus; Ampliar Captura</div>
+            </div>
+            <div class="screen-card__footer">
+              <h4 class="screen-card__title">Retroalimentación 2: Coevaluación y Formas de Evaluación</h4>
+              <p class="screen-card__desc">
+                Puntaje obtenido: <strong>5/5 preguntas correctas (100%)</strong> · Nota mínima requerida: 70% · Estado: <strong>APROBADO</strong>. Verificación sobre coevaluación, laboratorios, talleres y tareas ex aula.
+              </p>
+              <a class="btn btn--secondary" href="img/nota_retro_2.png" download="Captura_Retroalimentacion_2_Jose_Esau_Galdamez.png" style="width: 100%;">
+                <span>&darr;</span> Descargar Imagen Original (.png)
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- REFLEXIÓN METACONITIVA E4 (CRITERIO CENTRAL DE 10 PUNTOS) -->
+        <div class="metacognitive-box">
+          <div class="metacognitive-box__title">
+            <span>&diams;</span> Reflexión Metacognitiva y Valoración del Aprendizaje · Evidencia 4
+          </div>
+          <p>
+            Alcanzar el 100% en ambas actividades interactivas me permitió confirmar la solidez de mis aprendizajes conceptuales antes de emprender los diseños más complejos. En la formación universitaria a distancia, la retroalimentación inmediata automatizada cumple un rol fundamental de contención y andamiaje cognitivo: reduce la ansiedad del estudiante, aclara dudas de interpretación y refuerza el <em>Feed-up</em> (hacia dónde voy) y el <em>Feed-back</em> (cómo voy) según el modelo de Hattie y Timperley (2007).
+          </p>
+          <p>
+            El verdadero valor de estas pruebas no residió en la puntuación perfecta, sino en el proceso de lectura analítica de cada reactivo y en la contrastación inmediata con el material de la cátedra, afianzando distinciones clave sobre los instrumentos de evaluación formativa.
+          </p>
+          <div class="analogy-card">
+            <div class="analogy-card__tag">
+              <span>&bull;</span> Comparación con la Práctica Docente Universitaria en El Salvador
+            </div>
+            <p class="analogy-card__text">
+              En muchas cátedras universitarias en El Salvador, los cuestionarios en línea se diseñan exclusivamente con fines sumativos y punitivos: exámenes de un solo intento, con preguntas trampa, sin retroalimentación explicativa y con la nota publicada semanas después. Esto mutila el potencial del entorno virtual. Cuando el docente universitario diseña cuestionarios formativos interactivos con retroalimentación inmediata explicativa por cada opción de respuesta, el estudiante utiliza la evaluación para aprender activamente de sus desaciertos. En mi experiencia docente, incorporar cuestionarios formativos automatizados previo a las evaluaciones sumativas ha disminuido drásticamente la reprobación y ha elevado la seguridad de los alumnos en asignaturas complejas.
+            </p>
+          </div>
+        </div>
+      </article>
+
+    </section>
+
+    <!-- ====================================================================
+         05. PROCESO DE ELABORACIÓN
+         ==================================================================== -->
+    <section class="content-section" id="proceso">
+      <div class="section-header">
+        <span class="section-badge">Sección 05</span>
+        <h2 class="section-title">Proceso de Elaboración: Recolección y Selección</h2>
+        <p class="section-subtitle">Metodología de curaduría crítica y aseguramiento de la calidad de evidencias</p>
+      </div>
+
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px;">
+        <div class="card card--accent">
+          <h3 style="margin: 0 0 12px; font-weight: 800; font-size: 1.2rem; color: var(--text-main);">
+            1. Fase de Recolección (Acopio de Artefactos)
+          </h3>
+          <p style="font-size: 0.92rem; line-height: 1.7; margin: 0;">
+            Actividad primaria orientada a compilar sistemáticamente todos los productos, borradores, interacciones en foros y registros de trabajo generados durante las dos primeras semanas de la maestría. Siguiendo las orientaciones de la cátedra, el criterio de recolección se basó en la finalidad del curso: documentar la evolución del juicio evaluativo, desde el dominio de las corrientes educativas hasta la toma de decisiones pedagógicas y el diseño de rúbricas analíticas.
+          </p>
+        </div>
+
+        <div class="card card--emerald">
+          <h3 style="margin: 0 0 12px; font-weight: 800; font-size: 1.2rem; color: var(--text-main);">
+            2. Fase de Selección (Filtro Crítico de Calidad)
+          </h3>
+          <p style="font-size: 0.92rem; line-height: 1.7; margin: 0;">
+            La selección respondió a criterios estrictos de representatividad, profundidad y relevancia curricular. No se trasladó el contenido indiscriminadamente, sino <em>únicamente las mejores producciones</em> que evidenciaran de forma contundente la adquisición de conocimientos y habilidades docentes: la resolución de casos con simulación matemática, el cierre formativo de la coevaluación, la formulación de una evaluación auténtica con rúbrica Bloom y la verificación de dominio en el EVA con 100% de aprobación.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         06. PRODUCTO Y PROYECCIÓN
+         ==================================================================== -->
+    <section class="content-section" id="producto">
+      <div class="section-header">
+        <span class="section-badge">Sección 06</span>
+        <h2 class="section-title">Producto del Portafolio: Reflexión Global y Proyección</h2>
+        <p class="section-subtitle">Metacognición integradora y metas formativas para la innovación docente universitaria</p>
+      </div>
+
+      <div class="card" style="margin-bottom: 28px;">
+        <h3 style="margin: 0 0 14px; font-weight: 800; font-size: 1.3rem; color: var(--text-main);">
+          Reflexión Global Integradora del Ciclo de Aprendizaje
+        </h3>
+        <p style="font-size: 0.95rem; line-height: 1.8;">
+          La construcción de este portafolio digital ha marcado un hito en mi formación pedagógica en la maestría. Me ha permitido transitar de una visión instrumental y sancionadora de la evaluación hacia una perspectiva holística, dialógica y humanista. He comprendido que <strong>evaluar es enseñar dos veces</strong>: cuando planificamos la mediación y cuando retroalimentamos para guiar la autorregulación.
+        </p>
+        <p style="font-size: 0.95rem; line-height: 1.8; margin-bottom: 0;">
+          El portafolio se erige así no como un depósito inerte de tareas, sino como un dispositivo metacognitivo vivo donde el docente-maestrante examina sus propias concepciones pedagógicas, visibiliza sus saltos cualitativos y proyecta compromisos éticos con la educación superior salvadoreña.
+        </p>
+      </div>
+
+      <!-- Grid de Metas a Futuro -->
+      <div class="objectives-grid">
+        <div class="objective-item" style="border-top: 4px solid var(--accent);">
+          <span style="font-size:0.72rem; font-weight:800; text-transform:uppercase; color:var(--accent); letter-spacing:0.1em; margin-bottom:6px;">Corto Plazo · 2026</span>
+          <h4 style="margin:0 0 10px; font-size:1.1rem; color:var(--text-main);">Estandarización de Rúbricas</h4>
+          <p style="font-size:0.88rem; line-height:1.6; margin:0;">
+            Actualizar el 100% de las tareas de mis materias universitarias incorporando rúbricas analíticas digitales en Moodle compartidas desde el primer día del ciclo académico.
+          </p>
+        </div>
+
+        <div class="objective-item" style="border-top: 4px solid var(--teal);">
+          <span style="font-size:0.72rem; font-weight:800; text-transform:uppercase; color:var(--teal); letter-spacing:0.1em; margin-bottom:6px;">Mediano Plazo · 2027</span>
+          <h4 style="margin:0 0 10px; font-size:1.1rem; color:var(--text-main);">Talleres de Coevaluación</h4>
+          <p style="font-size:0.88rem; line-height:1.6; margin:0;">
+            Implementar talleres de coevaluación entre pares sustentados en la Escalera de Retroalimentación de Perkins y exigir videos de reflexión metacognitiva para el cierre de los proyectos.
+          </p>
+        </div>
+
+        <div class="objective-item" style="border-top: 4px solid var(--emerald);">
+          <span style="font-size:0.72rem; font-weight:800; text-transform:uppercase; color:var(--emerald); letter-spacing:0.1em; margin-bottom:6px;">Largo Plazo · 2028</span>
+          <h4 style="margin:0 0 10px; font-size:1.1rem; color:var(--text-main);">Investigación Pedagógica</h4>
+          <p style="font-size:0.88rem; line-height:1.6; margin:0;">
+            Diseñar y liderar proyectos de investigación aplicada sobre evaluación formativa automatizada en la educación técnica y tecnológica universitaria en El Salvador.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         07. AUTOEVALUACIÓN DEL PORTAFOLIO
+         ==================================================================== -->
+    <section class="content-section" id="autoevaluacion">
+      <div class="section-header">
+        <span class="section-badge">Sección 07</span>
+        <h2 class="section-title">Autoevaluación del Portafolio</h2>
+        <p class="section-subtitle">Aplicación formal de la Rúbrica para Evaluar el Portafolio de Evidencias (Docente Titular)</p>
+      </div>
+
+      <div class="table-container">
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th style="width: 16%;">Criterio Oficial</th>
+              <th style="width: 10%; text-align: center;">Ponderación</th>
+              <th style="width: 14%;">Nivel Asignado</th>
+              <th style="width: 48%;">Justificación Analítica de Desempeño</th>
+              <th style="width: 12%; text-align: center;">Puntuación</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>1. Portada</th>
+              <td style="text-align: center;"><strong>1%</strong></td>
+              <td><span class="badge badge--emerald">Muy Bien</span></td>
+              <td>
+                Incluye nombre del autor, institución y asignatura con datos institucionales completos. Título sugerente: <em>"Portafolio Digital de Evaluación Educativa en Entornos Virtuales"</em>. Considera fecha (Octubre 2026) y lugar (Sonsonate, El Salvador).
+              </td>
+              <td style="text-align: center;"><span class="score-pill">10 / 10</span></td>
+            </tr>
+            <tr>
+              <th>2. Objetivo</th>
+              <td style="text-align: center;"><strong>1%</strong></td>
+              <td><span class="badge badge--emerald">Muy Bien</span></td>
+              <td>
+                Objetivo general y específicos plenamente congruentes con los contenidos de las tareas; representan el aprendizaje obtenido y fundamentan la razón por la cual se estructuran de esa forma las evidencias.
+              </td>
+              <td style="text-align: center;"><span class="score-pill">10 / 10</span></td>
+            </tr>
+            <tr>
+              <th>3. Evidencias</th>
+              <td style="text-align: center;"><strong>3%</strong></td>
+              <td><span class="badge badge--emerald">Muy Bien</span></td>
+              <td>
+                Incluye todos los tipos de evidencias solicitadas para las 2 semanas: análisis de 2 casos prácticos (E1), enlace y síntesis de la actividad colaborativa "El Ciclo Crítico" (E2), diseño de evaluación universitaria con rúbrica Bloom (E3) y capturas de retroalimentación 1 y 2 al 100% en Moodle (E4). Todas demuestran avances palpables en los aprendizajes esperados.
+              </td>
+              <td style="text-align: center;"><span class="score-pill">10 / 10</span></td>
+            </tr>
+            <tr>
+              <th>4. Organización</th>
+              <td style="text-align: center;"><strong>1%</strong></td>
+              <td><span class="badge badge--emerald">Muy Bien</span></td>
+              <td>
+                Todos los documentos y secciones están estructurados de forma impecable: constan de encabezados limpios, layout responsivo moderno, navegación interactiva, tablas estandarizadas y lenguaje explicativo formal.
+              </td>
+              <td style="text-align: center;"><span class="score-pill">10 / 10</span></td>
+            </tr>
+            <tr>
+              <th>5. Reflexión</th>
+              <td style="text-align: center;"><strong>3%</strong></td>
+              <td><span class="badge badge--emerald">Muy Bien</span></td>
+              <td>
+                Las reflexiones de cada evidencia describen la propia actividad, analizan y valoran el aprendizaje realizado, y <em>establecen comparaciones explícitas con situaciones análogas reales de la práctica docente universitaria en El Salvador</em>, cumpliendo con el nivel de máxima excelencia.
+              </td>
+              <td style="text-align: center;"><span class="score-pill">10 / 10</span></td>
+            </tr>
+            <tr>
+              <th>6. Ortografía</th>
+              <td style="text-align: center;"><strong>1%</strong></td>
+              <td><span class="badge badge--emerald">Muy Bien</span></td>
+              <td>
+                El portafolio de evidencias está redactado con pulcritud gramatical y ortográfica, sin errores léxicos ni tipográficos, preservando un tono académico universitario fluido.
+              </td>
+              <td style="text-align: center;"><span class="score-pill">10 / 10</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Banner de Puntuación Total -->
+      <div class="score-summary-banner">
+        <div>
+          <h4 style="margin:0 0 6px; font-size:1.35rem; font-weight:800;">Calificación Final Autoevaluada</h4>
+          <p style="margin:0; font-size:0.88rem; color:#93C5FD;">Cumplimiento al 100% de todos los indicadores de la rúbrica oficial docente</p>
+        </div>
+        <div class="score-summary-banner__value">
+          10 / 10 <span style="font-size: 1.15rem; font-weight: 500; color: #FFF;">(100%)</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         08. REFERENCIAS BIBLIOGRÁFICAS
+         ==================================================================== -->
+    <section class="content-section" id="referencias">
+      <div class="section-header">
+        <span class="section-badge">Sección 08</span>
+        <h2 class="section-title">Referencias Bibliográficas</h2>
+        <p class="section-subtitle">Fuentes teóricas, pedagógicas e investigativas en formato APA 7.ª edición</p>
+      </div>
+
+      <div class="card">
+        <ul style="list-style: none; margin: 0; padding: 0; font-size: 0.92rem; line-height: 1.8;">
+          <li style="padding-bottom: 14px; border-bottom: 1px solid #E2E8F0; margin-bottom: 14px;">
+            Barberà, E. (2006). Aportaciones de la tecnología a la e-Evaluación. <em>RED: Revista de Educación a Distancia</em>, (M6), 1-13.
+          </li>
+          <li style="padding-bottom: 14px; border-bottom: 1px solid #E2E8F0; margin-bottom: 14px;">
+            Biggs, J. (2014). <em>Calidad del aprendizaje universitario</em> (2.ª ed.). Narcea Ediciones.
+          </li>
+          <li style="padding-bottom: 14px; border-bottom: 1px solid #E2E8F0; margin-bottom: 14px;">
+            Black, P., & Wiliam, D. (2009). Developing the theory of formative assessment. <em>Educational Assessment, Evaluation and Accountability</em>, 21(1), 5-31. <a href="https://doi.org/10.1007/s11092-008-9068-5" target="_blank" rel="noopener">https://doi.org/10.1007/s11092-008-9068-5</a>
+          </li>
+          <li style="padding-bottom: 14px; border-bottom: 1px solid #E2E8F0; margin-bottom: 14px;">
+            Bloom, B. S., Engelhart, M. D., Furst, E. J., Hill, W. H., & Krathwohl, D. R. (1956). <em>Taxonomy of educational objectives: The classification of educational goals. Handbook I: Cognitive domain</em>. David McKay Company.
+          </li>
+          <li style="padding-bottom: 14px; border-bottom: 1px solid #E2E8F0; margin-bottom: 14px;">
+            Boud, D., & Falchikov, N. (2007). <em>Rethinking assessment in higher education: Learning for the longer term</em>. Routledge. <a href="https://doi.org/10.4324/9780203964309" target="_blank" rel="noopener">https://doi.org/10.4324/9780203964309</a>
+          </li>
+          <li style="padding-bottom: 14px; border-bottom: 1px solid #E2E8F0; margin-bottom: 14px;">
+            Carless, D., & Boud, D. (2018). The development of student feedback literacy: Enabling uptake of feedback. <em>Assessment & Evaluation in Higher Education</em>, 43(8), 1315-1325. <a href="https://doi.org/10.1080/02602938.2018.1463354" target="_blank" rel="noopener">https://doi.org/10.1080/02602938.2018.1463354</a>
+          </li>
+          <li style="padding-bottom: 14px; border-bottom: 1px solid #E2E8F0; margin-bottom: 14px;">
+            Díaz-Barriga, F., & Pérez-Rendón, M. M. (2010). Aprender a evaluar la autoevaluación: Proceso de autorregulación y aprendizaje significativo. <em>Revista Iberoamericana de Evaluación Educativa</em>, 3(1), 84-101.
+          </li>
+          <li style="padding-bottom: 14px; border-bottom: 1px solid #E2E8F0; margin-bottom: 14px;">
+            Gardner, H. (1993). <em>Multiple intelligences: The theory in practice</em>. Basic Books.
+          </li>
+          <li style="padding-bottom: 14px; border-bottom: 1px solid #E2E8F0; margin-bottom: 14px;">
+            Hattie, J., & Timperley, H. (2007). The power of feedback. <em>Review of Educational Research</em>, 77(1), 81-112. <a href="https://doi.org/10.3102/003465430298487" target="_blank" rel="noopener">https://doi.org/10.3102/003465430298487</a>
+          </li>
+          <li style="padding-bottom: 14px; border-bottom: 1px solid #E2E8F0; margin-bottom: 14px;">
+            Perkins, D. (2003). <em>King Arthur's round table: How collaborative conversations create smart organizations</em>. John Wiley & Sons.
+          </li>
+          <li style="padding-bottom: 14px; border-bottom: 1px solid #E2E8F0; margin-bottom: 14px;">
+            Sanmartí, N. (2007). <em>10 ideas clave: Evaluar para aprender</em>. Editorial Graó.
+          </li>
+          <li style="padding-bottom: 14px; border-bottom: 1px solid #E2E8F0; margin-bottom: 14px;">
+            Sluijsmans, D., Dochy, F., & Moerkerke, G. (1999). Creating a learning environment by using self-, peer- and co-assessment. <em>Learning Environments Research</em>, 1(3), 293-319. <a href="https://doi.org/10.1023/A:1009932704458" target="_blank" rel="noopener">https://doi.org/10.1023/A:1009932704458</a>
+          </li>
+          <li>
+            Zimmerman, B. J. (2002). Becoming a self-regulated learner: An overview. <em>Theory Into Practice</em>, 41(2), 64-70. <a href="https://doi.org/10.1207/s15430421tip4102_2" target="_blank" rel="noopener">https://doi.org/10.1207/s15430421tip4102_2</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER MODERNO -->
+  <footer class="portal-footer">
+    <div class="portal-footer__container">
+      <div style="display:flex; justify-content:space-between; align-items:flex-start; flex-wrap:wrap; gap:20px;">
+        <div>
+          <div class="portal-footer__brand">Universidad Dr. Andrés Bello · Regional Sonsonate</div>
+          <p style="margin:6px 0 0; font-size:0.88rem; max-width:60ch; color:#94A3B8;">
+            Maestría en Docencia Universitaria en Entornos Virtuales · Asignatura: Evaluación Educativa en Entornos Virtuales.
+          </p>
+        </div>
+        <button class="btn btn--secondary js-print-trigger" type="button" style="background:#1E293B; border-color:#334155; color:#FFF;">
+          Descargar / Imprimir Portafolio
+        </button>
+      </div>
+
+      <div class="portal-footer__bottom">
+        <span>Autor: <strong>Jose Esau Galdamez Melgar</strong> · Ciclo II 2026</span>
+        <span>Sonsonate, El Salvador · Diseñado para GitHub Pages</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ====================================================================
+       VISOR MODAL PARA DOCUMENTOS ORIGINALES
+       ==================================================================== -->
+  <div class="modal-overlay" id="docModal" role="dialog" aria-modal="true" aria-labelledby="docModalTitle">
+    <div class="doc-viewer-modal">
+      <div class="doc-viewer-modal__header">
+        <div class="doc-viewer-modal__title-group">
+          <span class="doc-viewer-modal__file-badge" id="docModalBadge">DOCX</span>
+          <h3 class="doc-viewer-modal__title" id="docModalTitle">Documento Original</h3>
+        </div>
+        <div class="doc-viewer-modal__actions">
+          <a class="btn btn--secondary" id="docModalDownload" href="#" download>
+            <span>&darr;</span> Descargar Archivo
+          </a>
+          <button class="doc-viewer-modal__close" id="docModalClose" type="button" aria-label="Cerrar">&times;</button>
+        </div>
+      </div>
+      <div class="doc-viewer-modal__body" id="docModalBody">
+        <!-- El contenido se inyecta dinámicamente mediante JavaScript -->
+      </div>
+    </div>
+  </div>
+
+  <!-- VISOR LIGHTBOX PARA IMÁGENES -->
+  <div class="image-lightbox" id="imgLightbox" role="dialog" aria-modal="true">
+    <div class="image-lightbox__container">
+      <button class="image-lightbox__close" id="lightboxClose" type="button" aria-label="Cerrar">&times;</button>
+      <img class="image-lightbox__img" id="lightboxImg" src="" alt="Captura ampliada">
+    </div>
+  </div>
+
+  <!-- ====================================================================
+       FUENTES DE CONTENIDO PARA EL VISOR MODAL (OCULTAS EN HTML)
+       ==================================================================== -->
+  <div style="display: none;" aria-hidden="true">
+
+    <!-- FUENTE DOCUMENTO E1 -->
+    <div id="doc-source-e1">
+      <div style="border-bottom: 2px solid #E2E8F0; padding-bottom: 16px; margin-bottom: 20px;">
+        <span style="font-size: 0.75rem; font-weight: 800; color: #2563EB; text-transform: uppercase;">UNIVERSIDAD DR. ANDRÉS BELLO · REGIONAL SONSONATE</span>
+        <h2 style="margin: 6px 0; font-size: 1.4rem; color: #0F172A;">Análisis Descriptivo de 2 Casos Prácticos de Evaluación</h2>
+        <p style="margin: 0; font-size: 0.85rem; color: #64748B;">
+          <strong>Integrantes:</strong> José Esaú Galdámez Melgar, René Mauricio Jiménez Ramírez, Luis Roberto García Zaña, Gerber Alexis Gómez Hidalgo.<br>
+          <strong>Docente:</strong> Mtra. Liliana Jeannette Cordero De García · Fecha: 20 de octubre de 2026.
+        </p>
+      </div>
+
+      <h3 style="color: #1E40AF; border-bottom: 1px solid #CBD5E1; padding-bottom: 6px;">Caso 1: Autoevaluación en un curso virtual de posgrado</h3>
+      <p><strong>Asignatura:</strong> Evaluación Educativa | <strong>Tema de aplicación:</strong> Supervisión de personal de ventas en Moodle.</p>
+      <p>
+        El equipo propone que el docente responsable del curso <em>Diseño de experiencias de aprendizaje virtual</em> utilice la autoevaluación para que el estudiante contraste su propuesta para Moodle con criterios explícitos, reconozca sus avances y realice mejoras antes de la calificación definitiva.
+      </p>
+      
+      <h4>1. Análisis Conceptual</h4>
+      <p><strong>a) ¿Por qué la estrategia es una autoevaluación?:</strong> Es una autoevaluación porque el propio estudiante examina y valora su propuesta, compara sus resultados con los criterios establecidos y explica sus fortalezas y dificultades. Al responder preguntas reflexivas y proponer ajustes, participa en la regulación de su aprendizaje.</p>
+      <p><strong>b) Propósitos de la autoevaluación presentes en el caso:</strong></p>
+      <ul>
+        <li><strong>Autoconocimiento:</strong> El estudiante identifica qué componentes domina y cuáles necesita fortalecer.</li>
+        <li><strong>Reflexión crítica:</strong> Revisa las razones de sus decisiones y la relación entre objetivos, actividades y evaluación.</li>
+        <li><strong>Autorregulación:</strong> Utiliza la información obtenida para seleccionar ajustes, aplicarlos y comprobar si mejoran la propuesta.</li>
+        <li><strong>Autonomía y responsabilidad:</strong> Asume un papel activo en la valoración de su aprendizaje.</li>
+      </ul>
+      <p><strong>c) Beneficios para el aprendizaje universitario virtual:</strong> Hace visibles los criterios de calidad y ayuda al estudiante a organizar su trabajo autónomo en Moodle, facilitando solicitar apoyo específico.</p>
+
+      <h4>2. Rúbrica Analítica de Autoevaluación (5 Criterios)</h4>
+      <table class="data-table">
+        <thead>
+          <tr>
+            <th>Criterio</th>
+            <th>Nivel 4 (Excelente)</th>
+            <th>Nivel 3 (Bueno)</th>
+            <th>Nivel 2 (En Proceso)</th>
+            <th>Nivel 1 (Inicial)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>Claridad de Objetivos</th>
+            <td>Formula objetivos claros, medibles y orientados al perfil del estudiante.</td>
+            <td>Formula objetivos pertinentes, requiere precisar alcance.</td>
+            <td>Objetivos ambiguos o centrados solo en contenidos.</td>
+            <td>No formula objetivos explícitos.</td>
+          </tr>
+          <tr>
+            <th>Coherencia Pedagógica</th>
+            <td>Alineamiento constructivo total entre objetivos, actividades y evaluación.</td>
+            <td>Coherencia general; requiere ajuste puntual en una evidencia.</td>
+            <td>Disociación parcial entre actividades y evaluación.</td>
+            <td>Desconexión total de los componentes curriculares.</td>
+          </tr>
+          <tr>
+            <th>Recursos Digitales Moodle</th>
+            <td>Recursos interactivos y accesibles alineados a la didáctica.</td>
+            <td>Recursos adecuados pero convencionales.</td>
+            <td>Recursos poco pertinentes o sobrecarga de texto sin mediación.</td>
+            <td>Herramientas inadecuadas que entorpecen el aprendizaje.</td>
+          </tr>
+          <tr>
+            <th>Participación e Interacción</th>
+            <td>Espacios colaborativos claros con consignas y roles definidos.</td>
+            <td>Incluye foros grupales con consignas genéricas.</td>
+            <td>Predominio individual con interacción marginal.</td>
+            <td>Sin estrategias de interacción colaborativa.</td>
+          </tr>
+          <tr>
+            <th>Autorregulación Reflexiva</th>
+            <td>Justifica decisiones críticamente, detecta vacíos y propone mejoras.</td>
+            <td>Reconoce debilidades pero propone mejoras poco detalladas.</td>
+            <td>Descripción superficial sin justificación de decisiones.</td>
+            <td>Sin evidencia de reflexión ni autocrítica.</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h4>3. Interpretación del Caso Simulado</h4>
+      <p>Puntuaciones asignadas: Objetivos: 4/4 | Coherencia: 3/4 | Actividades: 4/4 | Recursos: 3/4 | Evaluación: 2/4. Total: 16 de 20 (80% = 8.0/10). El estudiante presenta una brecha notable en la evaluación (2/4), denotando una ruptura en el alineamiento constructivo: planifica qué enseñar pero no cómo verificar auténticamente el aprendizaje.</p>
+
+      <h4>4. Toma de Decisiones Pedagógicas y Plan de Mejora</h4>
+      <p>La autoevaluación debe emplearse primordialmente para activar planes de mejora y no para calificaciones sumativas punitivas. Se implementan dos acciones: 1) Taller de alineamiento constructivo con matriz Moodle-Check; y 2) Laboratorio de diseño y calibración de instrumentos de evaluación auténtica.</p>
+
+      <hr style="margin: 24px 0; border: none; border-top: 1px solid #CBD5E1;">
+
+      <h3 style="color: #1E40AF; border-bottom: 1px solid #CBD5E1; padding-bottom: 6px;">Caso 2: Heteroevaluación de una actividad colaborativa virtual</h3>
+      <p><strong>Contexto:</strong> Tres equipos presentan el proyecto <em>"Diseño de una estrategia de evaluación para un curso universitario virtual"</em>.</p>
+      <p><strong>Evaluación de los equipos:</strong></p>
+      <ul>
+        <li><strong>Equipo A (Nota: 7.5 / 15 pts):</strong> Excelente fundamentación teórica (Nivel 4), pero escasa aplicación práctica a instrumentos utilizables (Nivel 2).</li>
+        <li><strong>Equipo B (Nota: 7.5 / 15 pts):</strong> Propuesta práctica y creativa (Nivel 4), pero poca coherencia lógica entre objetivos y actividades (Nivel 2).</li>
+        <li><strong>Equipo C (Nota: 8.5 / 17 pts):</strong> Propuesta equilibrada con objetivos claros, actividades coherentes y estrategias adecuadas (Niveles 4 y 3).</li>
+      </ul>
+      <p><strong>Acciones Docentes:</strong> Taller de alineación para Equipo B; Laboratorio de aplicación de instrumentos para Equipo A; Pilotaje para Equipo C; y Segunda entrega final con matriz de seguimiento de mejoras.</p>
+    </div>
+
+    <!-- FUENTE DOCUMENTO E2 -->
+    <div id="doc-source-e2">
+      <div style="border-bottom: 2px solid #E2E8F0; padding-bottom: 16px; margin-bottom: 20px;">
+        <span style="font-size: 0.75rem; font-weight: 800; color: #2563EB; text-transform: uppercase;">UNIVERSIDAD DR. ANDRÉS BELLO · EVALUACIÓN EDUCATIVA</span>
+        <h2 style="margin: 6px 0; font-size: 1.4rem; color: #0F172A;">Actividad en Equipos: "El Ciclo Crítico: De Estudiante a Evaluador"</h2>
+        <p style="margin: 0; font-size: 0.85rem; color: #64748B;">
+          <strong>Tema Asignado:</strong> Equipo 4: Cierre del ciclo y transformación.<br>
+          <strong>Participantes:</strong> Jose Esau Galdamez Melgar, Marlon Zometa, Lizzette Estrada, Oscar Armando Martínez Alas.
+        </p>
+      </div>
+
+      <h3 style="color: #1E40AF;">Planteamiento Central</h3>
+      <p>
+        La coevaluación se define como una estrategia que fomenta el aprendizaje mutuo. A su vez, la fase final del ciclo busca <em>"Mejorar el Aprendizaje"</em> utilizando la retroalimentación recibida. ¿Cómo diseñaría usted el cierre de una actividad virtual para que los estudiantes demuestren tangiblemente que han utilizado esa retroalimentación para mejorar su producto final o su comprensión del tema?
+      </p>
+
+      <h4 style="color:#0F172A;">Aporte Individual de Jose Esau Galdamez Melgar:</h4>
+      <div style="background:#EFF6FF; border-left:4px solid #2563EB; padding:16px; border-radius:6px; margin:14px 0;">
+        <p style="margin:0; font-style:italic;">
+          «Desde mi perspectiva, el cierre ideal sería solicitar la entrega del producto final junto con un breve video, audio o presentación interactiva de reflexión (de 1 a 2 minutos). En esta presentación, el estudiante debe exponer brevemente la versión original de su trabajo, mencionar los aportes más valiosos que recibió durante la coevaluación, y mostrar o explicar cómo esos comentarios transformaron y mejoraron la versión definitiva. De esta manera, no solo se evalúa el producto tangible modificado, sino también la capacidad del estudiante para interiorizar la crítica constructiva, fomentando una verdadera metacognición y apropiación de su proceso de aprendizaje».
+        </p>
+      </div>
+
+      <h4>Aportes de los Compañeros de Equipo:</h4>
+      <ul>
+        <li><strong>Marlon Zometa:</strong> Propuso que el cierre exija explicar brevemente qué se cambió y por qué, constatando si la observación de los pares realmente ayudó a mejorar el trabajo o a comprender mejor el tema.</li>
+        <li><strong>Lizzette Estrada:</strong> Consideró que el docente debe establecer un espacio para que los estudiantes analicen las opiniones de sus pares y dejen evidencia de una reflexión crítica sobre el avance de sus competencias.</li>
+        <li><strong>Oscar Armando Martínez Alas:</strong> Propuso entregar la versión final acompañada de una <em>Matriz de Retroalimentación de 3 Columnas</em>: 1) Sugerencias recibidas; 2) Modificaciones realizadas; y 3) Justificación argumentada en caso de no aplicar alguna recomendación.</li>
+      </ul>
+      <p><strong>Conclusión del Equipo:</strong> El cierre formativo debe amalgamar el producto modificado con un testimonio metacognitivo reflexivo (audiovisual o matriz analítica), asegurando la transferencia real del aprendizaje.</p>
+    </div>
+
+    <!-- FUENTE DOCUMENTO E3 -->
+    <div id="doc-source-e3">
+      <div style="border-bottom: 2px solid #E2E8F0; padding-bottom: 16px; margin-bottom: 20px;">
+        <span style="font-size: 0.75rem; font-weight: 800; color: #2563EB; text-transform: uppercase;">UNIVERSIDAD DR. ANDRÉS BELLO · PROPUESTA DIDÁCTICA</span>
+        <h2 style="margin: 6px 0; font-size: 1.4rem; color: #0F172A;">Diseño de Evaluación Universitaria para Entornos Virtuales</h2>
+        <p style="margin: 0; font-size: 0.85rem; color: #64748B;">
+          <strong>Asignatura:</strong> Formulación y Evaluación de Proyectos de Innovación Tecnológica.<br>
+          <strong>Autor:</strong> Jose Esau Galdamez Melgar · Nivel: Educación Superior Universitaria.
+        </p>
+      </div>
+
+      <h3 style="color: #1E40AF;">1. Marco Epistemológico de la Evaluación</h3>
+      <p>Basado en la presentación de la Semana 2, la propuesta responde a las 6 preguntas fundamentales:</p>
+      <ul>
+        <li><strong>¿Qué evaluar?:</strong> Competencias complejas de diagnóstico empresarial, diseño estratégico digital y viabilidad financiera.</li>
+        <li><strong>¿Quién evalúa?:</strong> Modelo triádico compartido (autoevaluación formativa, coevaluación entre pares y heteroevaluación docente).</li>
+        <li><strong>¿Cómo evaluar?:</strong> Mediante Aprendizaje Basado en Proyectos (ABP) con rúbrica analítica por niveles de desempeño compartida desde el inicio.</li>
+        <li><strong>¿Cuándo evaluar?:</strong> En 3 fases continuas: Diagnóstico situacional, Propuesta técnica y Entrega final/Defensa virtual.</li>
+        <li><strong>¿Dónde evaluar?:</strong> Entorno virtual Moodle institucional y salas síncronas de videoconferencia.</li>
+        <li><strong>¿Por qué evaluar?:</strong> Para mediar activamente en la construcción de competencias y certificar aprendizajes aplicables a la realidad empresarial.</li>
+      </ul>
+
+      <h3>2. Guía Instruccional de la Tarea Ex Aula</h3>
+      <p><strong>Actividad Evaluada:</strong> Diseño y Viabilidad de un Plan de Transformación Digital para una MIPYME Local.</p>
+      <p><strong>Estructura del Informe:</strong> 1) Caracterización del negocio; 2) Matriz FODA digital; 3) Segmentación del público meta; 4) Objetivos SMART; 5) Estrategias tecnológicas (e-commerce, pasarelas de pago, ERP); 6) Plan de acción y cronograma Gantt; 7) Presupuesto y proyección financiera; 8) Video de sustentación (3 min) y referencias APA 7.</p>
+
+      <h3>3. Rúbrica Analítica de Evaluación (10.0 Puntos / 100%)</h3>
+      <p>La rúbrica integra 6 criterios ponderados con 4 niveles de desempeño descriptivos (Excelente 100%, Bueno 75%, Aceptable 50%, Insuficiente 25%), garantizando la objetividad en la calificación y orientando el esfuerzo del maestrante hacia los niveles cognitivos superiores de la Taxonomía de Benjamin Bloom.</p>
+    </div>
+
+  </div>
+
+  <!-- Script interactivo del portal -->
+  <script src="js/app.js"></script>
+</body>
+</html>
