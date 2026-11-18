@@ -21,9 +21,9 @@ El portafolio digital integra de manera secuencial, armónica y exhaustiva las e
 3. **Introducción Pedagógica Profunda:** Fundamentación teórica y epistemológica de la transición desde la micro-evaluación en el aula virtual hacia la macro-evaluación institucional de la calidad y el desempeño docente.
 4. **Objetivos Formativos y Perfil de Egreso:** Objetivo general y 5 objetivos específicos alineados a las competencias docentes universitarias en entornos virtuales.
 5. **Núcleo de Evidencias del Segundo Período:**
-   - **Evidencia 5 (Semana 3):** *Evaluación Institucional y Plan de Mejora Continua: Universidad «Horizonte del Saber»*. Caracterización institucional, enfoque socioformativo mixto, dimensiones/criterios/indicadores, 3 instrumentos aplicables y plan PHVA de 7 acciones.
-   - **Evidencia 6 (Semana 4):** *Evaluación Educativa y Mejora del Desempeño Institucional: Universidad Tonucci*. Modelo CIPP de Stufflebeam, matriz FODA con 8 estrategias cruzadas (FO, DO, FA, DA), Modelo CAF participativo (Delphi, comité, dashboard) y plan de mejora de 5 factores.
-   - **Evidencia 7 (Semana 5):** *Evaluación del Desempeño Docente en Entornos Virtuales*. Análisis de las 6 dimensiones de Fierro, Fortoul y Rosas (1999), triangulación evaluativa (auto 25%, coe 35%, hetero 40%), rúbrica analítica en 4 dimensiones observables (escala 1 a 4) y plan de mejora docente con ciclo PHVA.
+   - **Evidencia 5 (Semana 3):** *Evaluación Institucional y Plan de Mejora Continua: Universidad «Horizonte del Saber»*. Caracterización institucional, enfoque socioformativo mixto, dimensiones/criterios/indicadores, 3 instrumentos aplicables y plan PHVA de 7 acciones. [Ver en Google Docs](https://docs.google.com/document/d/14x5C7DKt4V6qXc4tDbnv9MmratfAQmwEvTgAR-TlU34/edit?usp=sharing).
+   - **Evidencia 6 (Semana 4):** *Evaluación Educativa y Mejora del Desempeño Institucional: Universidad Tonucci*. Modelo CIPP de Stufflebeam, matriz FODA con 8 estrategias cruzadas (FO, DO, FA, DA), Modelo CAF participativo (Delphi, comité, dashboard) y plan de mejora de 5 factores. [Ver en Google Docs](https://docs.google.com/document/d/1fQTK53Nt3uTZkbyYSfnKO8_5zoSP9NqaQnL_dBAproo/edit?usp=sharing).
+   - **Evidencia 7 (Semana 5):** *Evaluación del Desempeño Docente en Entornos Virtuales*. Análisis de las 6 dimensiones de Fierro, Fortoul y Rosas (1999), triangulación evaluativa (auto 25%, coe 35%, hetero 40%), rúbrica analítica en 4 dimensiones observables (escala 1 a 4) y plan de mejora docente con ciclo PHVA. [Ver en Google Docs](https://docs.google.com/document/d/1lbXXe8KQOKSMirSvKR3EpjlmQPW_xHFXELCluGI6CPc/edit?usp=sharing).
 6. **Evidencias Curriculares del Primer Período:**
    - **Evidencia 1 (Semana 1):** *Análisis Descriptivo de 2 Casos Prácticos* (Autoevaluación en posgrado y heteroevaluación colaborativa).
    - **Evidencia 2 (Semana 2):** *El Ciclo Crítico: De Estudiante a Evaluador* (Equipo 4: Cierre del ciclo y transformación).
@@ -39,9 +39,10 @@ El portafolio digital integra de manera secuencial, armónica y exhaustiva las e
 ## 💻 Características Tecnológicas y de Interfaz
 
 - **Diseño Original y Glassmorphism:** Interfaz moderna, minimalista y profesional sin plantillas prediseñadas.
-- **Acceso Total a Evidencias:** Cada una de las evidencias incorpora botones para:
+- **Acceso Total y Multiplataforma a Evidencias:** Cada una de las evidencias incorpora botones para:
   - `[ 👁 Ver Documento Completo ]`: Visor modal interactivo en pantalla completa con el contenido formateado y tablas.
-  - `[ 📥 Descargar Archivo (.docx) ]`: Descarga directa del archivo Word original.
+  - `[ 🔗 Abrir en Google Docs ]`: Acceso directo al documento compartido oficial en Google Docs.
+  - `[ 📥 Descargar Archivo (.docx) ]`: Descarga directa del archivo Word oficial completo.
 - **Reflexiones Metacognitivas con Analogía Real Salvadoreña:** Cada evidencia incluye una reflexión individual profunda que analiza logros, dificultades, competencias y contrasta con la realidad de las universidades en El Salvador.
 - **Lightbox Integrado:** Permite ampliar y examinar las capturas de pantalla de calificaciones.
 - **Modo Impresión Optimizado:** Estilos CSS dedicados para generar un reporte limpio en formato PDF.
@@ -61,9 +62,9 @@ semana 2/
 │   ├── Analisis_2_Estudios_de_Casos.docx
 │   ├── Equipo4_El_Ciclo_Critico_Cierre_y_Transformacion.docx
 │   ├── Diseno_de_Evaluacion_Universitaria_Virtual.docx
-│   ├── Semana3_Evaluacion_Institucional_Horizonte_del_Saber.docx
-│   ├── Semana4_Evaluacion_Institucional_Modelo_CIPP_FODA_CAF.docx
-│   └── Semana5_Evaluacion_Desempeno_Docente_Entornos_Virtuales.docx
+│   ├── Semana3_Evaluacion_Institucional_Horizonte_del_Saber.docx (57.4 KB)
+│   ├── Semana4_Evaluacion_Institucional_Modelo_CIPP_FODA_CAF.docx (48.3 KB)
+│   └── Semana5_Evaluacion_Desempeno_Docente_Entornos_Virtuales.docx (26.8 KB)
 ├── img/                    # Capturas originales
 │   ├── nota_retro_1.png
 │   └── nota_retro_2.png
